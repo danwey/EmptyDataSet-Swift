@@ -1,16 +1,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "EmptyDataSet",
+    name: "EmptyDataSet-Swift",
     platforms: [
         .iOS(.v8),
         .tvOS(.v9),
     ],
     products: [
-        .library(name: "EmptyDataSet", targets: ["EmptyDataSet"]),
+        .library(name: "EmptyDataSet-Swift", targets: ["EmptyDataSe-Swiftt"]),
     ],
     targets: [
-        .target(name: "EmptyDataSet", path: "./EmptyDataSet-Swift"),
+        .target(name: "EmptyDataSet-Swift", path: "./EmptyDataSet-Swift"),
     ],
     swiftLanguageVersions: [
         .v5,
