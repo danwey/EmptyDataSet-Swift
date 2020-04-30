@@ -9,7 +9,7 @@ let package = Package(
         .tvOS(.v9),
     ],
     products: [
-        .library(name: "EmptyDataSet-Swift", targets: ["EmptyDataSet-Swiftt"]),
+        .library(name: "EmptyDataSet-Swift", targets: ["EmptyDataSet-Swift"]),
     ],
     targets: [
         .target(name: "EmptyDataSet-Swift", path: "./EmptyDataSet-Swift"),
